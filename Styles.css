@@ -1,0 +1,47 @@
+/* Posição do menu */
+.menu-acessibilidade {
+  position: fixed;
+  top: 2rem;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Botão girado */
+.rotacao-botao { 
+  transform: rotate(-90deg);
+  transform-origin: right center;
+}
+
+/* Opções do menu */
+.opcoes-acessibilidade {
+  margin-top: 10px;
+  display: none; /* escondido inicialmente */
+  flex-direction: column;
+}
+
+/* Quando ativo, mostra em lista */
+.apresenta-lista {
+  display: flex;
+}
+
+/* Espaçamento entre botões */
+.opcoes-acessibilidade button {
+  margin-bottom: 5px;
+}
+
+/* Estilo Bootstrap-like (caso não esteja usando Bootstrap real) */
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
